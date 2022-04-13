@@ -1,0 +1,13 @@
+package senaicursos;
+
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+
+public class Testecurso {
+	private WebDriver drive;
+	
+	@Before
+	public void abrirNavegador() {
+		System.setProperty("webdrive.chrome.driver", "C:\\Arquivos de Progamas\\chromedriver\\chromedriver.exe");
+	}
+}
